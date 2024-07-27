@@ -109,7 +109,7 @@ def Index(array, i):
     if isinstance(array, list):
         return array.index(i)
     else:
-        print("error: argument is not an array2")
+        print("error: argument is not an array")
 
 
 def Append(array, element):
@@ -122,16 +122,34 @@ def Array(array,i):
         return array[i]
     else:
         print("error: first argument is not an array")
+def Add(array,i,element):
+
+    if isinstance(array, list):
+        array.insert(i,element)
+        return "Element added successfully"
+    else:
+        print("error: first argument is not an array")
+def Remove(array,i):
+    if isinstance(array, list):
+       array.pop(i)
+       return array
+
+#~~~~~~Tuples~~~~~~#
 
 
 
-#~~~~~Main~~~~~~#
+    #~~~~~Main~~~~~~#
 def main():
     new_array = New_Array()
     Append(new_array,5)
     Append(new_array, 52)
+    Append(new_array, 2)
+    Append(new_array, 4)
     Length(new_array)
-    print(Index(new_array, 5))
-    print(Array(123,0))
+    print(Add(new_array,1,8))
+    print("CHECK")
+    print(new_array)
+    print(Remove(new_array,-1))
+
 if __name__ == '__main__':
     main()
