@@ -1,57 +1,91 @@
-
+import array
 #~~~~~~~Math~~~~~~#
-def test():
-
-def add(x,y):
+def Add(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     return x+y
-def sub(x,y):
-        return x-y
-def mul(x,y):
+def Sub(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
+    return x-y
+def Mul(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     return x*y
 
-def div(x,y):
+def Div(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     if(y==0): print("error cant divide by 0")
     return x/y
 
-def power(x,y):
+def Power(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     return x**y
 
-def square(x):
+def Square(x):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     return x**(0.5)
-def min(x,y):
+def Min(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     if(x < y):
+        if (type(x or y) != int) or (type(x or y) != float):
+            print("error: not a number")
+            exit()
         return x
     return y
-def max(x,y):
+def Max(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     if(x > y):
         return x
     return y
 def Assign(x,y):
     x = y
     return x
-def equal(x,y):
+def Equal(x,y):
     return x==y
-def not_equal(x,y):
+def Not_equal(x,y):
     return x != y
-def greater(x,y):
+def Greater(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     return x > y
-def smaller(x,y):
+def Smaller(x,y):
+    if (type(x or y) != int) or (type(x or y) != float):
+        print("error: not a number")
+        exit()
     return x < y
-def oho (x,y): #or func
+def Or (x,y): #or func
     return x or y
-def vegam(x,y):  #and func
+def And(x,y):  #and func
     return x and y
 
 #~~~~~Strings~~~~~#
 
-def reverse_string(s): #replace func ****
-
+def Replace(s): #replace func ****
     for c in s:
-        if oho(equal(type(c),int),equal(type(c),float)):
+        if type(c)==int or type(c)==float:
             print("error: not a string")
+            exit()
     return s[::-1]
 
-#def Upper_case(s):
+def Is_upper(s):
+    return s.upper()
+def Is_Lower(s):
+    return s.lower()
 
 
 
@@ -64,16 +98,40 @@ def reverse_string(s): #replace func ****
 
 
 #~~~~~~Arrays~~~~~#
-def Array():
-    return
+def New_Array():
+    return []
+def Length(Array_Name):
+    if isinstance(Array_Name, list):
+        return len(Array_Name)
+    else:
+        print("error: argument is not an array")
+def Index(array, i):
+    if isinstance(array, list):
+        return array.index(i)
+    else:
+        print("error: argument is not an array2")
 
 
-def Length():
-    retrun list.
+def Append(array, element):
+    if isinstance(array, list):
+        array.append(element)
+    else:
+        print("error: first argument is not an array")
+def Array(array,i):
+    if isinstance(array, list):
+        return array[i]
+    else:
+        print("error: first argument is not an array")
+
+
+
 #~~~~~Main~~~~~~#
 def main():
-    x=123
-    print(reverse_string(x))
-
+    new_array = New_Array()
+    Append(new_array,5)
+    Append(new_array, 52)
+    Length(new_array)
+    print(Index(new_array, 5))
+    print(Array(123,0))
 if __name__ == '__main__':
     main()

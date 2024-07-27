@@ -1,0 +1,155 @@
+Index: Project.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n#~~~~~~~Math~~~~~~#\r\ndef test():\r\n    print(\"test\")\r\n\r\ndef add(x,y):\r\n    return x+y\r\ndef sub(x,y):\r\n        return x-y\r\ndef mul(x,y):\r\n    return x*y\r\n\r\ndef div(x,y):\r\n    if(y==0): print(\"error cant divide by 0\")\r\n    return x/y\r\n\r\ndef power(x,y):\r\n    return x**y\r\n\r\ndef square(x):\r\n    return x**(0.5)\r\ndef min(x,y):\r\n    if(x < y):\r\n        return x\r\n    return y\r\ndef max(x,y):\r\n    if(x > y):\r\n        return x\r\n    return y\r\ndef Assign(x,y):\r\n    x = y\r\n    return x\r\ndef equal(x,y):\r\n    return x==y\r\ndef not_equal(x,y):\r\n    return x != y\r\ndef greater(x,y):\r\n    return x > y\r\ndef smaller(x,y):\r\n    return x < y\r\ndef oho (x,y): #or func\r\n    return x or y\r\ndef vegam(x,y):  #and func\r\n    return x and y\r\n\r\n#~~~~~Strings~~~~~#\r\n\r\ndef reverse_string(s): #replace func ****\r\n\r\n    for c in s:\r\n        if oho(equal(type(c),int),equal(type(c),float)):\r\n            print(\"error: not a string\")\r\n    return s[::-1]\r\n\r\n#def Upper_case(s):\r\n\r\n\r\n\r\n#~~~~~~Loops~~~~~#\r\n#def kol_od(x,condition,y): # While\r\n #   while(x,condition,y):\r\n\r\n#def For() #For\r\n\r\n\r\n\r\n#~~~~~~Arrays~~~~~#\r\ndef Array():\r\n    return\r\n\r\n\r\ndef Length():\r\n    retrun list.\r\n#~~~~~Main~~~~~~#\r\ndef main():\r\n    x=123\r\n    print(reverse_string(x))\r\n\r\nif __name__ == '__main__':\r\n    main()
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Project.py b/Project.py
+--- a/Project.py	(revision 1c5e69d2207517d21844d58272faec93d326df58)
++++ b/Project.py	(date 1722084975241)
+@@ -1,64 +1,104 @@
+ 
+ #~~~~~~~Math~~~~~~#
+-def test():
+-    print("test")
+ 
+-def add(x,y):
++def Add(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
+     return x+y
+-def sub(x,y):
+-        return x-y
+-def mul(x,y):
++def Sub(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
++    return x-y
++def Mul(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
+     return x*y
+ 
+-def div(x,y):
+-    if(y==0): print("error cant divide by 0")
++def Div(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
++    if(y==0):
++        print("error cant divide by 0")
++        exit()
+     return x/y
+ 
+-def power(x,y):
++def Power(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
+     return x**y
+ 
+-def square(x):
++def Square(x):
++    if (type(x) != int) or (type(x) != float):
++        print("error: not a string")
++        exit()
+     return x**(0.5)
+-def min(x,y):
++def Min(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
+     if(x < y):
+         return x
+     return y
+-def max(x,y):
++def Max(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
+     if(x > y):
+         return x
+     return y
+ def Assign(x,y):
+     x = y
+     return x
+-def equal(x,y):
++def Equal(x,y): #equal
+     return x==y
+-def not_equal(x,y):
++def Not_Equal(x,y): #not equal
+     return x != y
+-def greater(x,y):
++def Greater(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
+     return x > y
+-def smaller(x,y):
++def Smaller(x,y):
++    if type((x or y) != int) or (type(x or y) != float):
++        print("error: not a string")
++        exit()
+     return x < y
+-def oho (x,y): #or func
++def Or (x,y): #or func
+     return x or y
+-def vegam(x,y):  #and func
++def And(x,y):  #and func
+     return x and y
+ 
+ #~~~~~Strings~~~~~#
+ 
+-def reverse_string(s): #replace func ****
+-
++def Replace(s): #replace func ****
+     for c in s:
+-        if oho(equal(type(c),int),equal(type(c),float)):
++        if type(c) ==int or type(c)==float:
+             print("error: not a string")
+     return s[::-1]
+ 
+-#def Upper_case(s):
++def Is_Upper(s): # לשאול האם הכוונה להפוך לאותיות גדולות או להחזיר ערך בוליאני
++    s = s.upper()
++    return s
++def Is_Lower(s):# לשאול האם הכוונה להפוך לאותיות גדולות או להחזיר ערך בוליאני
++    s=s.lower()
++    return s
++def Concat(x,y):
++    x=x.append(y)
++
++    return x
++
++
++
+ 
+ 
+ 
+ #~~~~~~Loops~~~~~#
+-#def kol_od(x,condition,y): # While
+- #   while(x,condition,y):
++#def kol_od(something):
+ 
+ #def For() #For
+ 
+@@ -73,8 +113,12 @@
+     retrun list.
+ #~~~~~Main~~~~~~#
+ def main():
+-    x=123
+-    print(reverse_string(x))
++    s="abc"
++    x="RTY"
++    print(Is_Upper(s))
++    print(Is_Lower(x))
++
++
+ 
+ if __name__ == '__main__':
+     main()
+\ No newline at end of file
