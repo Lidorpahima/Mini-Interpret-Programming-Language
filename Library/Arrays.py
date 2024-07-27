@@ -23,7 +23,7 @@ def Array(array,i):
         return array[i]
     else:
         print("error: first argument is not an array")
-def Add(array,i,element):
+def add(array,i,element):
 
     if isinstance(array, list):
         array.insert(i,element)
