@@ -2,18 +2,14 @@ from Library import Arrays
 from Library import Loops
 from Library import Math
 from Library import String
+from Library import Tuples
+from Library import Conditions
+
     #~~~~~Main~~~~~~#
 def main():
-    new_array = Arrays.New_Array()
-    Arrays.Append(new_array,5)
-    Arrays.Append(new_array, 52)
-    Arrays.Append(new_array, 2)
-    Arrays.Append(new_array, 4)
-    Arrays.Length(new_array)
-    print(Arrays.add(new_array,1,8))
-    print("CHECK")
-    print(new_array)
-    print(Arrays.Remove(new_array,-1))
+    x = 5
+    Conditions.If(x == 5, lambda: print("x is 5"))
+    Conditions.Else(lambda: print("x is not 5"))
 
 if __name__ == '__main__':
     main()
