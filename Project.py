@@ -27,7 +27,7 @@ def max(x,y):
     if(x > y):
         return x
     return y
-def assign(x,y):
+def Assign(x,y):
     x = y
     return x
 def equal(x,y):
@@ -60,8 +60,17 @@ def reverse_string(s): #replace func ****
 #def kol_od(x,condition,y): # While
  #   while(x,condition,y):
 
+#def For() #For
 
 
+
+#~~~~~~Arrays~~~~~#
+def Array():
+    return
+
+
+def Length():
+    retrun list.
 #~~~~~Main~~~~~~#
 def main():
     x=123
