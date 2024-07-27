@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
-    </list>
-    <list id="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" name="Changes by Ron" comment="">
-      <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
-    </list>
+    <list default="true" id="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" name="Changes" comment="test" />
+    <list id="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" name="Changes by Ron" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,18 +33,6 @@
     &quot;accountId&quot;: &quot;b4e2a3b2-7a27-42bd-ae88-10d4c75973e6&quot;
   }
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Project.py">
-      <ranges>
-        <range start1="111" end1="112" start2="111" end2="112" changelist="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" />
-        <range start1="124" end1="124" start2="124" end2="125" changelist="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" />
-        <range start1="125" end1="125" start2="126" end2="137" changelist="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" />
-        <range start1="127" end1="128" start2="139" end2="140" changelist="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" />
-        <range start1="132" end1="132" start2="144" end2="146" changelist="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" />
-        <range start1="133" end1="135" start2="147" end2="152" changelist="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -132,7 +115,7 @@
       <workItem from="1722068722302" duration="163000" />
       <workItem from="1722068901923" duration="5661000" />
       <workItem from="1722077081580" duration="7974000" />
-      <workItem from="1722085103778" duration="4807000" />
+      <workItem from="1722085103778" duration="5137000" />
     </task>
     <task id="LOCAL-00001" summary="אקדא">
       <option name="closed" value="true" />
@@ -182,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722087767123</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <option name="closed" value="true" />
+      <created>1722089991668</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722089991668</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
