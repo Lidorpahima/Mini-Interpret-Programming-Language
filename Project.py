@@ -7,9 +7,8 @@ from Library import Conditions
 
     #~~~~~Main~~~~~~#
 def main():
-    x = 5
-    Conditions.If(x == 5, lambda: print("x is 5"))
-    Conditions.Else(lambda: print("x is not 5"))
+    x = Arrays.New_Array(1,2,6,4,5)
+    print(Arrays.Index(x, 6))
 
 if __name__ == '__main__':
     main()

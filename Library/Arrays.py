@@ -1,6 +1,6 @@
 #~~~~~~Arrays~~~~~#
-def New_Array():
-    return []
+def New_Array(*argv):
+    return list(argv)
 def Length(Array_Name):
     if isinstance(Array_Name, list):
         return len(Array_Name)
