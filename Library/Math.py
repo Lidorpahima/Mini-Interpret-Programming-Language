@@ -1,73 +1,100 @@
 #~~~~~~~Math~~~~~~#
-def Add(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
+def Add(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")
         exit()
-    return x+y
-def Sub(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
-        print("error: not a number")
-        exit()
-    return x-y
-def Mul(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
-        print("error: not a number")
-        exit()
-    return x*y
+    return x + y
 
-def Div(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
-        print("error: not a number")
-        exit()
-    if(y==0): print("error cant divide by 0")
-    return x/y
 
-def Power(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
+def Sub(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")
         exit()
-    return x**y
+    return x - y
+
+
+def Mul(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
+        print("error: not a number")
+        exit()
+    return x * y
+
+
+def Div(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
+        print("error: not a number")
+        exit()
+    if y == 0:
+        print("error cant divide by 0")
+        exit()
+    return x / y
+
+
+def Power(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
+        print("error: not a number")
+        exit()
+    return x ** y
+
 
 def Square(x):
-    if (type(x or y) != int) or (type(x or y) != float):
+    if not (isinstance(x, int)) or (isinstance(x, float)):
         print("error: not a number")
         exit()
-    return x**(0.5)
-def Min(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
+    return x ** (0.5)
+
+
+def Min(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")
         exit()
-    if(x < y):
-        if (type(x or y) != int) or (type(x or y) != float):
+    if (x < y):
+        if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
             print("error: not a number")
             exit()
         return x
     return y
-def Max(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
+
+
+def Max(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")
         exit()
-    if(x > y):
+    if (x > y):
         return x
     return y
-def Assign(x,y):
+
+
+def Assign(x, y):
     x = y
     return x
-def Equal(x,y):
-    return x==y
-def Not_equal(x,y):
+
+
+def Equal(x, y):
+    return x == y
+
+
+def Not_equal(x, y):
     return x != y
-def Greater(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
+
+
+def Greater(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")
         exit()
     return x > y
-def Smaller(x,y):
-    if (type(x or y) != int) or (type(x or y) != float):
+
+
+def Smaller(x, y):
+    if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")
         exit()
     return x < y
-def Or (x,y): #or func
+
+
+def Or(x, y):  #or func
     return x or y
-def And(x,y):  #and func
+
+
+def And(x, y):  #and func
     return x and y
