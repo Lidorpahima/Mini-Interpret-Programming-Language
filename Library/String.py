@@ -12,5 +12,10 @@ def Is_upper(s):
     if isinstance(s, str):
         return s.upper()
     elif isinstance(s, list):
-        print("Enter list")
         return [item.upper() if isinstance(item, str) else item for item in s]
+
+def Is_lower(s):
+    if isinstance(s, str):
+        return s.lower()
+    elif isinstance(s, list):
+        return [item.lower() if isinstance(item, str) else item for item in s]

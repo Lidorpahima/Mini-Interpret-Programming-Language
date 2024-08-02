@@ -8,9 +8,6 @@ from Library import Conditions
 
 #~~~~~Main~~~~~~#
 def main():
-    # x = Arrays.New_Array(1, 2, 6, 4, 5)
-
-    # print(Arrays.Index(x, 6))
 
     list2 = ["a", 1, "B", 2]
     #print("enter supper")
@@ -32,7 +29,9 @@ def main():
     list = ["Lidor","Ron","Tom"]
     #Loops.ForInRange(0, 1, 1, String.Is_upper)
     #print(list)
-    Loops.For(list,String.Is_upper)
+    list = Loops.For(list,String.Is_upper)
+    print(list)
+    list = Loops.For(list, String.Is_lower)
     print(list)
     print("awsfdggjhjjhgdf")
 
