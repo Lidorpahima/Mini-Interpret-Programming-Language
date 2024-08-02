@@ -1,71 +1,41 @@
-
-#~~~~~~~Math~~~~~~#
-def test():
-    print("test")
-
-def add(x,y):
-    return x+y
-def sub(x,y):
-        return x-y
-def mul(x,y):
-    return x*y
-
-def div(x,y):
-    if(y==0): print("error cant divide by 0")
-    return x/y
-
-def power(x,y):
-    return x**y
-
-def square(x):
-    return x**(0.5)
-def min(x,y):
-    if(x < y):
-        return x
-    return y
-def max(x,y):
-    if(x > y):
-        return x
-    return y
-def assign(x,y):
-    x = y
-    return x
-def equal(x,y):
-    return x==y
-def not_equal(x,y):
-    return x != y
-def greater(x,y):
-    return x > y
-def smaller(x,y):
-    return x < y
-def oho (x,y): #or func
-    return x or y
-def vegam(x,y):  #and func
-    return x and y
-
-#~~~~~Strings~~~~~#
-
-def reverse_string(s): #replace func ****
-
-    for c in s:
-        if oho(equal(type(c),int),equal(type(c),float)):
-            print("error: not a string")
-    return s[::-1]
-
-#def Upper_case(s):
-
-
-
-#~~~~~~Loops~~~~~#
-#def kol_od(x,condition,y): # While
- #   while(x,condition,y):
-
+from Library import Arrays
+from Library import Loops
+from Library import Math
+from Library import String
+from Library import Tuples
+from Library import Conditions
 
 
 #~~~~~Main~~~~~~#
 def main():
-    x=123
-    print(reverse_string(x))
+    # x = Arrays.New_Array(1, 2, 6, 4, 5)
+
+    # print(Arrays.Index(x, 6))
+
+    list2 = ["a", 1, "B", 2]
+    #print("enter supper")
+    list2=String.Is_upper(list2)
+    print(list2)
+    def body(x):
+        nonlocal list2
+        if not isinstance(x, int):
+            list2.remove(x)
+            print(x)
+
+        return
+
+    def func(x):
+        nonlocal list
+        if(x%2==0):
+            list.append(x)
+
+    list = ["Lidor","Ron","Tom"]
+    #Loops.ForInRange(0, 1, 1, String.Is_upper)
+    #print(list)
+    Loops.For(list,String.Is_upper)
+    print(list)
+    print("awsfdggjhjjhgdf")
+
 
 if __name__ == '__main__':
     main()
