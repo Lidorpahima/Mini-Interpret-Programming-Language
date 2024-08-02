@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" name="Changes" comment="Push">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_07_2024_15_56__Changes_by_Ron_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_07_2024_15_56__Changes_by_Ron_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
-    </list>
-    <list id="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" name="Changes by Ron" comment="">
-      <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
-    </list>
+    <list default="true" id="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" name="Changes" comment="Push" />
+    <list id="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" name="Changes by Ron" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,15 +33,6 @@
     "accountId": "b4e2a3b2-7a27-42bd-ae88-10d4c75973e6"
   }
 }]]></component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Project.py">
-      <ranges>
-        <range start1="15" end1="16" start2="15" end2="18" changelist="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" />
-        <range start1="19" end1="20" start2="21" end2="24" changelist="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" />
-        <range start1="22" end1="26" start2="26" end2="36" changelist="a5cddafc-3fc4-4937-a8b3-b108f16d41c3" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -141,7 +123,7 @@
       <workItem from="1722098293492" duration="30000" />
       <workItem from="1722098332692" duration="85000" />
       <workItem from="1722098426039" duration="6560000" />
-      <workItem from="1722601876221" duration="6267000" />
+      <workItem from="1722601876221" duration="6558000" />
     </task>
     <task id="LOCAL-00001" summary="אקדא">
       <option name="closed" value="true" />
@@ -239,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722104199782</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Push">
+      <option name="closed" value="true" />
+      <created>1722608957024</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722608957024</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
