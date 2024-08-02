@@ -9,8 +9,8 @@ def Replace(s):  #replace func ****
 
 
 def Is_upper(s):
-    return s.upper()
-
-
-def Is_Lower(s):
-    return s.lower()
+    if isinstance(s, str):
+        return s.upper()
+    elif isinstance(s, list):
+        print("Enter list")
+        return [item.upper() if isinstance(item, str) else item for item in s]

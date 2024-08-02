@@ -7,8 +7,14 @@ def While(condition, body):
 
 # TODO: LETAKEN
 def For(arr, body):
+    if len(arr) == 0:
+        raise ("error: empty array")
     for item in arr:
         body(item)
+        if(item == arr[-1]):
+            print(arr)
+            break
+    
 
 
 def ForInRange(start, stop, step, body):
