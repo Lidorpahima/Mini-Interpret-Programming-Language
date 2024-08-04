@@ -41,14 +41,14 @@ def Square(x):
     if not (isinstance(x, int)) or (isinstance(x, float)):
         print("error: not a number")
         exit()
-    return x ** (0.5)
+    return x ** 0.5
 
 
 def Min(x, y):
     if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")
         exit()
-    if (x < y):
+    if x < y:
         if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
             print("error: not a number")
             exit()
@@ -60,7 +60,7 @@ def Max(x, y):
     if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")
         exit()
-    if (x > y):
+    if x > y:
         return x
     return y
 
@@ -92,9 +92,11 @@ def Smaller(x, y):
     return x < y
 
 
-def Or(x, y):  #or func
+# or func
+def Or(x, y):
     return x or y
 
 
-def And(x, y):  #and func
+# and func
+def And(x, y):
     return x and y

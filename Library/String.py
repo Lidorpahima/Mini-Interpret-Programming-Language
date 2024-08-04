@@ -1,6 +1,7 @@
 #~~~~~Strings~~~~~#
 
-def Replace(s):  #replace func ****
+#replace func
+def Replace(s):
     for c in s:
         if type(c) == int or type(c) == float:
             print("error: not a string")
@@ -14,8 +15,20 @@ def Is_upper(s):
     elif isinstance(s, list):
         return [item.upper() if isinstance(item, str) else item for item in s]
 
+
 def Is_lower(s):
     if isinstance(s, str):
         return s.lower()
     elif isinstance(s, list):
         return [item.lower() if isinstance(item, str) else item for item in s]
+
+
+def Concat(*args):
+    return ''.join(str(arg) for arg in args)
+
+
+def Split(s, val=None):
+    if not isinstance(s, str):
+        print("Not a string")
+        exit()
+    return s.split(val)
