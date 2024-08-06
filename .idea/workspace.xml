@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" name="Changes" comment="Push">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_07_2024_15_56__Changes_by_Ron_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Math.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Math.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/String.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
     </list>
@@ -52,6 +48,9 @@
     &quot;repository&quot;: &quot;Mini-Interpret-Programming-Language&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/ast.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>

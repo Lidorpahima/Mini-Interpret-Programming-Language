@@ -1,9 +1,9 @@
-#~~~~~Strings~~~~~#
+# ~~~~~Strings~~~~~#
 
-#replace func
+# replace func
 def Replace(s):
     for c in s:
-        if type(c) == int or type(c) == float:
+        if not (isinstance(c, int)) or (isinstance(c, float)):
             print("error: not a string")
             exit()
     return s[::-1]
