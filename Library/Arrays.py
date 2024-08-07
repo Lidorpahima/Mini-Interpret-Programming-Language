@@ -10,7 +10,7 @@ def Length(Array_Name):
         print("error: argument is not an array")
 
 
-def Index(array, i):
+def GetIndex(array, i):
     if isinstance(array, list):
         return array.index(i)
     else:
@@ -24,7 +24,7 @@ def Append(array, element):
         print("error: first argument is not an array")
 
 
-def Array(array, i):
+def GetValue(array, i):
     if isinstance(array, list):
         return array[i]
     else:
