@@ -1,4 +1,4 @@
-#~~~~~~~Math~~~~~~#
+# ~~~~~~~Math~~~~~~#
 def Add(x, y):
     if not (isinstance((x or y), int)) or (isinstance((x or y), float)):
         print("error: not a number")

@@ -1,12 +1,10 @@
 # ~~~~~Strings~~~~~#
 
 # replace func
-def Replace(s):
-    for c in s:
-        if not (isinstance(c, int)) or (isinstance(c, float)):
-            print("error: not a string")
-            exit()
-    return s[::-1]
+def Replace(s, old, new):
+    if not isinstance(s, str):
+        print("Input must be a string")
+    return s.replace(old, new)
 
 
 def Is_upper(s):
@@ -17,6 +15,7 @@ def Is_upper(s):
     else:
         return "Not a string can't convert to upper!"
 
+
 def Is_lower(s):
     if isinstance(s, str):
         return s.lower()
@@ -24,6 +23,7 @@ def Is_lower(s):
         return [item.lower() if isinstance(item, str) else item for item in s]
     else:
         return "Not a string can't convert to lower!"
+
 
 def Concat(*args):
     return ''.join(str(arg) for arg in args)
@@ -34,3 +34,11 @@ def Split(s, val=None):
         print("Not a string")
         exit()
     return s.split(val)
+
+
+def Reverse(s):
+    for c in s:
+        if not isinstance(s, str):
+            print("Not a string")
+            exit()
+        return s[::-1]

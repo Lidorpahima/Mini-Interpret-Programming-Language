@@ -1,4 +1,4 @@
-#~~~~Conditions~~~~~#
+# ~~~~Conditions~~~~~
 def If(condition, action):
     if condition:
         action()
