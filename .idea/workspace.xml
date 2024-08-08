@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" name="Changes" comment="update IsUpper and Islower">
+    <list default="true" id="0ea22d7c-58d8-4015-b62f-2abb98ca4b64" name="Changes" comment="update IsUpper and Islower and array check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Arrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Math.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Math.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/String.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Tuples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
     </list>
@@ -64,7 +70,7 @@
     &quot;Python.Project.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lidor/PycharmProjects/pythonProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lidor/PycharmProjects&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -113,7 +119,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -140,7 +147,9 @@
       <workItem from="1722612310066" duration="2958000" />
       <workItem from="1722971757726" duration="55000" />
       <workItem from="1722971814248" duration="972000" />
-      <workItem from="1723043937993" duration="5069000" />
+      <workItem from="1723043937993" duration="5763000" />
+      <workItem from="1723124898477" duration="54000" />
+      <workItem from="1723124954247" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="אקדא">
       <option name="closed" value="true" />
@@ -262,7 +271,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722615209456</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update IsUpper and Islower and array check">
+      <option name="closed" value="true" />
+      <created>1723049685090</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723049685090</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update IsUpper and Islower and array check">
+      <option name="closed" value="true" />
+      <created>1723049769674</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723049769674</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,10 +321,22 @@
     <MESSAGE value="test" />
     <MESSAGE value="Push" />
     <MESSAGE value="update IsUpper and Islower" />
-    <option name="LAST_COMMIT_MESSAGE" value="update IsUpper and Islower" />
+    <MESSAGE value="update IsUpper and Islower and array check" />
+    <option name="LAST_COMMIT_MESSAGE" value="update IsUpper and Islower and array check" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Mini_Interpret_Programming_Language$Project.coverage" NAME="Project Coverage Results" MODIFIED="1723049636344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Mini_Interpret_Programming_Language$Project.coverage" NAME="Project Coverage Results" MODIFIED="1723125134780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Project.coverage" NAME="Project Coverage Results" MODIFIED="1722156148242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
