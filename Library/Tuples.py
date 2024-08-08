@@ -7,8 +7,8 @@ def sort(tupple):
     return tuple(sorted(tupple))
 
 
-def addTuple(tuple1, tuple2):
-    return tuple(list(tuple1) + tuple2)
+def AddTuple(tuple1, tuple2):
+    return tuple1 + tuple2
 
 
 def Getindex(tupple, i):
