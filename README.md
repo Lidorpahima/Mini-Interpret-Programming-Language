@@ -9,7 +9,7 @@
 
 <div class="container">
     <h1>Mini-Interpreter for a Simple Programming Language</h1>
-    <p>This project is designed to help students create a mini-interpreter for a simple, custom programming language using Python. This project will enable students to apply principles learned in the course, including syntax, semantics, and basic interpreter design.</p>
+    <p>This project is designed to help students create a mini-interpreter for a simple, custom programming language using Python. This project will enable to apply principles learned in the course, including syntax, semantics, and basic interpreter design.</p>
     <h2>Project Description</h2>
     <p>The project involves the following steps and requirements:</p>
     <ol>
